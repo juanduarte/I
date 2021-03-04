@@ -1,0 +1,22 @@
+#N canvas 1293 606 515 309 10;
+#X obj 91 159 adc~ \$1;
+#X obj 437 57 switch~;
+#X obj 437 14 loadbang;
+#X obj 156 57 r \$2-button;
+#X obj 156 231 throw~;
+#X msg 437 34 1;
+#X obj 156 102 symbol \$3-out;
+#X obj 156 77 sel \$1;
+#X msg 156 122 set \$1;
+#X obj 126 81 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 91 179 *~ 2;
+#X connect 0 0 10 0;
+#X connect 2 0 5 0;
+#X connect 3 0 7 0;
+#X connect 5 0 1 0;
+#X connect 6 0 8 0;
+#X connect 7 0 6 0;
+#X connect 8 0 4 0;
+#X connect 9 0 6 0;
+#X connect 10 0 4 0;

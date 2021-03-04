@@ -1,0 +1,30 @@
+#N canvas 464 23 602 473 10;
+#X obj 514 67 switch~;
+#X obj 514 12 r enc_file;
+#X obj 547 34 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 487 40 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 514 33 == 1;
+#X obj 28 70 ab_sp input1-out;
+#X obj 121 50 trill_square uno;
+#X obj 28 31 inp_rout_abs 1 Pot_9;
+#X obj 59 101 inp_rout_abs 2 Pot_10;
+#X obj 59 140 ab_sp input2-out;
+#X obj 375 26 trill_bar dos;
+#X obj 283 61 inp_rout_abs 3 Pot_11;
+#X obj 283 100 ab_sp input3-out;
+#X obj 307 131 inp_rout_abs 4 Pot_12;
+#X obj 307 170 ab_sp input4-out;
+#X connect 1 0 4 0;
+#X connect 3 0 0 0;
+#X connect 4 0 0 0;
+#X connect 4 0 2 0;
+#X connect 6 0 5 1;
+#X connect 6 1 9 1;
+#X connect 7 0 5 0;
+#X connect 8 0 9 0;
+#X connect 10 0 12 1;
+#X connect 10 1 14 1;
+#X connect 11 0 12 0;
+#X connect 13 0 14 0;

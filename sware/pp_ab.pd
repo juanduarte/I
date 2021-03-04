@@ -1,0 +1,18 @@
+#N canvas 741 603 313 238 10;
+#X obj 21 110 line;
+#X obj 21 92 pack f 10;
+#X obj 21 25 parse_sprintf \$1;
+#X obj 21 169 s \$2;
+#X obj 21 130 int;
+#X floatatom 124 45 5 0 0 0 - - -;
+#X obj 124 25 parse_sprintf 126;
+#X floatatom 124 84 5 0 0 0 - - -;
+#X obj 124 64 / 5;
+#X connect 0 0 4 0;
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X connect 4 0 3 0;
+#X connect 5 0 8 0;
+#X connect 6 0 5 0;
+#X connect 8 0 1 1;
+#X connect 8 0 7 0;

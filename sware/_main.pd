@@ -1,0 +1,9 @@
+#N canvas 0 23 202 163 10;
+#X obj 37 34 serial;
+#X obj 37 51 input_routing;
+#X text 88 86 waveshapes;
+#X obj 37 68 spat;
+#X text 124 51 odds;
+#X text 69 68 pairs;
+#X obj 37 87 presets;
+#X obj 37 105 sound_analysis;

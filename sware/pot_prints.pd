@@ -1,0 +1,27 @@
+#N canvas 514 209 563 238 10;
+#X text 32 23 OUT;
+#X text 241 24 IN;
+#X obj 32 42 pp_ab 33 Pot_1;
+#X obj 32 62 pp_ab 35 Pot_2;
+#X obj 32 82 pp_ab 36 Pot_3;
+#X obj 32 102 pp_ab 46 Pot_4;
+#X obj 32 122 pp_ab 38 Pot_5;
+#X obj 32 142 pp_ab 39 Pot_6;
+#X obj 32 162 pp_ab 40 Pot_7;
+#X obj 32 182 pp_ab 41 Pot_8;
+#X obj 242 42 pp_ab 42 Pot_9;
+#X obj 242 62 pp_ab 43 Pot_10;
+#X obj 242 82 pp_ab 61 Pot_11;
+#X obj 242 102 pp_ab 62 Pot_12;
+#X obj 379 51 r Pot_1;
+#X obj 382 90 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 12687 1;
+#X obj 379 71 / 1000;
+#X obj 382 148 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 12687 1;
+#X obj 379 129 / 1000;
+#X obj 379 109 r Pot_2;
+#X connect 14 0 16 0;
+#X connect 16 0 15 0;
+#X connect 18 0 17 0;
+#X connect 19 0 18 0;
